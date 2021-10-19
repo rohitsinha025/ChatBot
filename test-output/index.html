@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-TestNGXMLTest_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">TestNGXMLTest Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-TestNGXMLTest_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\Anjali\eclipse-workspace\ChatBotAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-TestNGXMLTest_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-TestNGXMLTest_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-TestNGXMLTest_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-TestNGXMLTest_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-TestNGXMLTest_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-TestNGXMLTest_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 1 failed,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-TestNGXMLTest_Test_Suite" class="hide-methods failed suite-TestNGXMLTest_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-TestNGXMLTest_Test_Suite -->
+                      <a href="#" panel-name="suite-TestNGXMLTest_Test_Suite" class="show-methods failed suite-TestNGXMLTest_Test_Suite"> (show)</a> <!-- show-methods failed suite-TestNGXMLTest_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-TestNGXMLTest_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNGXMLTest_Test_Suite" title="com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture" class="method navigator-link" hash-for-method="startWithIRA">startWithIRA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-TestNGXMLTest_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-TestNGXMLTest_Test_Suite" class="hide-methods passed suite-TestNGXMLTest_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-TestNGXMLTest_Test_Suite -->
+                      <a href="#" panel-name="suite-TestNGXMLTest_Test_Suite" class="show-methods passed suite-TestNGXMLTest_Test_Suite"> (show)</a> <!-- show-methods passed suite-TestNGXMLTest_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-TestNGXMLTest_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNGXMLTest_Test_Suite" title="com.hybridFramework.IRALaunchPage.IRAInsuranceRenew" class="method navigator-link" hash-for-method="buyNewPolicy">buyNewPolicy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNGXMLTest_Test_Suite" title="com.hybridFramework.IRALaunchPage.IRAlaunchpage" class="method navigator-link" hash-for-method="fillForm">fillForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNGXMLTest_Test_Suite" title="com.hybridFramework.IRALaunchPage.IRAInsuranceRenew" class="method navigator-link" hash-for-method="intimateAClaim">intimateAClaim</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNGXMLTest_Test_Suite" title="com.hybridFramework.IRALaunchPage.IRAlaunchpage" class="method navigator-link" hash-for-method="startWithIRA">startWithIRA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNGXMLTest_Test_Suite" title="com.hybridFramework.IRALaunchPage.IRAInsuranceRenew" class="method navigator-link" hash-for-method="startWithIRA">startWithIRA</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNGXMLTest_Test_Suite" title="com.hybridFramework.IRALaunchPage.IRAlaunchpage" class="method navigator-link" hash-for-method="tryWithNewKeyWords">tryWithNewKeyWords</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-TestNGXMLTest_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-TestNGXMLTest_Test_Suite" class="panel TestNGXMLTest_Test_Suite">
+          <div class="suite-TestNGXMLTest_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="startWithIRA">
+                  </a> <!-- startWithIRA -->
+                  <span class="method-name">startWithIRA</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.hybridFramework.PageObject.IRAHomePage.getFalseWelcomeMessage(IRAHomePage.java:113)
+	at com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture.startWithIRA(IRALaunchPageWithErrorCapture.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNGXMLTest_Test_Suite-class-failed -->
+          <div class="suite-TestNGXMLTest_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hybridFramework.IRALaunchPage.IRAInsuranceRenew</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyNewPolicy">
+                  </a> <!-- buyNewPolicy -->
+                  <span class="method-name">buyNewPolicy</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="intimateAClaim">
+                  </a> <!-- intimateAClaim -->
+                  <span class="method-name">intimateAClaim</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="startWithIRA">
+                  </a> <!-- startWithIRA -->
+                  <span class="method-name">startWithIRA</span>
+                  <em>
+(Welcome Screen - Click on Notification, get that text and get into the bot Type any greetings message and fetch the response message<Menu Options> - click on the <Start Over> button, Click on Download Motor Policy and Click on Download link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNGXMLTest_Test_Suite-class-passed -->
+          <div class="suite-TestNGXMLTest_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.hybridFramework.IRALaunchPage.IRAlaunchpage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="fillForm">
+                  </a> <!-- fillForm -->
+                  <span class="method-name">fillForm</span>
+                  <em>
+(Type <Test Bot> - Fill the Form and Submit)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="startWithIRA">
+                  </a> <!-- startWithIRA -->
+                  <span class="method-name">startWithIRA</span>
+                  <em>
+(Welcome Screen - Click on Notification, get that text and get into the bot Type any greetings message and fetch the response message<Menu Options> - click on the <Start Over> button, Click on Download Motor Policy and Click on Download link)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tryWithNewKeyWords">
+                  </a> <!-- tryWithNewKeyWords -->
+                  <span class="method-name">tryWithNewKeyWords</span>
+                  <em>
+(Type <New Test> - Click on Links Google and close the web view. Click on call and Close the call popup)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-TestNGXMLTest_Test_Suite-class-passed -->
+        </div> <!-- panel TestNGXMLTest_Test_Suite -->
+        <div panel-name="test-xml-TestNGXMLTest_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Anjali\eclipse-workspace\ChatBotAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;classes&quot; name=&quot;TestNGXMLTest Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test name=&quot;Success Test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hybridFramework.IRALaunchPage.IRAlaunchpage&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Success Test --&gt;
+  &lt;test name=&quot;Failure Test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Failure Test --&gt;
+  &lt;test name=&quot;Test with some keywords Test&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.hybridFramework.IRALaunchPage.IRAInsuranceRenew&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test with some keywords Test --&gt;
+&lt;/suite&gt; &lt;!-- TestNGXMLTest Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-TestNGXMLTest_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for TestNGXMLTest Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Success Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Failure Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test with some keywords Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-TestNGXMLTest_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for TestNGXMLTest Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-TestNGXMLTest_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for TestNGXMLTest Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_TestNGXMLTest_Test_Suite');
+function tableData_TestNGXMLTest_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'startWithIRA')
+data.setCell(0, 2, 'com.hybridFramework.IRALaunchPage.IRAInsuranceRenew')
+data.setCell(0, 3, 46717);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'startWithIRA')
+data.setCell(1, 2, 'com.hybridFramework.IRALaunchPage.IRAlaunchpage')
+data.setCell(1, 3, 27201);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fillForm')
+data.setCell(2, 2, 'com.hybridFramework.IRALaunchPage.IRAlaunchpage')
+data.setCell(2, 3, 22139);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'tryWithNewKeyWords')
+data.setCell(3, 2, 'com.hybridFramework.IRALaunchPage.IRAlaunchpage')
+data.setCell(3, 3, 15577);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'buyNewPolicy')
+data.setCell(4, 2, 'com.hybridFramework.IRALaunchPage.IRAInsuranceRenew')
+data.setCell(4, 3, 11154);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'intimateAClaim')
+data.setCell(5, 2, 'com.hybridFramework.IRALaunchPage.IRAInsuranceRenew')
+data.setCell(5, 3, 8378);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'startWithIRA')
+data.setCell(6, 2, 'com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture')
+data.setCell(6, 3, 5424);
+window.suiteTableData['TestNGXMLTest_Test_Suite']= { tableData: data, tableDiv: 'times-div-TestNGXMLTest_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-TestNGXMLTest_Test_Suite">
+              </div> <!-- times-div-TestNGXMLTest_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-TestNGXMLTest_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for TestNGXMLTest Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-TestNGXMLTest_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-TestNGXMLTest_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hybridFramework.IRALaunchPage.IRAlaunchpage</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">instantiateValues</span>
+                <span class="method-start">4558 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hybridFramework.IRALaunchPage.IRAlaunchpage.startWithIRA() throws java.lang.Exceptio...)</span>
+                <span class="method-start">4710 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">startWithIRA</span>
+                <span class="method-start">4720 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=startWithIRA status=SUCCESS method=IRAlaunchpage.startWithIRA()[pri:0, instance:com...)</span>
+                <span class="method-start">31925 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hybridFramework.IRALaunchPage.IRAlaunchpage.fillForm() throws java.lang.InterruptedE...)</span>
+                <span class="method-start">31951 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">fillForm</span>
+                <span class="method-start">31958 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=fillForm status=SUCCESS method=IRAlaunchpage.fillForm()[pri:0, instance:com.hybridF...)</span>
+                <span class="method-start">54101 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hybridFramework.IRALaunchPage.IRAlaunchpage.tryWithNewKeyWords() throws java.lang.In...)</span>
+                <span class="method-start">54112 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tryWithNewKeyWords</span>
+                <span class="method-start">54117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=tryWithNewKeyWords status=SUCCESS method=IRAlaunchpage.tryWithNewKeyWords()[pri:0, ...)</span>
+                <span class="method-start">69696 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">69698 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">70973 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">71015 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">instantiateValues</span>
+                <span class="method-start">73252 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture.startWithIRA() throws ja...)</span>
+                <span class="method-start">73263 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">startWithIRA</span>
+                <span class="method-start">73263 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=startWithIRA status=FAILURE method=IRALaunchPageWithErrorCapture.startWithIRA()[pri...)</span>
+                <span class="method-start">78691 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">79094 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">80020 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.hybridFramework.IRALaunchPage.IRAInsuranceRenew</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">80044 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">instantiateValues</span>
+                <span class="method-start">82174 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hybridFramework.IRALaunchPage.IRAInsuranceRenew.startWithIRA() throws java.lang.Exce...)</span>
+                <span class="method-start">82182 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">startWithIRA</span>
+                <span class="method-start">82182 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=startWithIRA status=SUCCESS method=IRAInsuranceRenew.startWithIRA()[pri:1, instance...)</span>
+                <span class="method-start">128902 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hybridFramework.IRALaunchPage.IRAInsuranceRenew.buyNewPolicy() throws java.lang.Inte...)</span>
+                <span class="method-start">128907 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buyNewPolicy</span>
+                <span class="method-start">128908 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=buyNewPolicy status=SUCCESS method=IRAInsuranceRenew.buyNewPolicy()[pri:2, instance...)</span>
+                <span class="method-start">140063 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.hybridFramework.IRALaunchPage.IRAInsuranceRenew.intimateAClaim() throws java.lang.In...)</span>
+                <span class="method-start">140073 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">intimateAClaim</span>
+                <span class="method-start">140074 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=intimateAClaim status=SUCCESS method=IRAInsuranceRenew.intimateAClaim()[pri:3, inst...)</span>
+                <span class="method-start">148455 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">148456 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">149349 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

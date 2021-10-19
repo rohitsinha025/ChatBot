@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-19T14:36:26Z" name="TestNGXMLTest Test Suite" finished-at="2021-10-19T14:38:56Z" duration-ms="149360">
+    <groups>
+    </groups>
+    <test started-at="2021-10-19T14:36:26Z" name="Success Test" finished-at="2021-10-19T14:37:37Z" duration-ms="70984">
+      <class name="com.hybridFramework.IRALaunchPage.IRAlaunchpage">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAlaunchpage@42463763]" started-at="2021-10-19T20:06:26Z" name="launchBrowser" finished-at="2021-10-19T20:06:31Z" duration-ms="4557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="instantiateValues()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAlaunchpage@42463763]" started-at="2021-10-19T20:06:31Z" name="instantiateValues" finished-at="2021-10-19T20:06:31Z" depends-on-methods="com.hybridFramework.testBase.TestBase.launchBrowser" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiateValues -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAlaunchpage@42463763]" started-at="2021-10-19T20:06:31Z" name="beforeMethod" finished-at="2021-10-19T20:06:31Z" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hybridFramework.IRALaunchPage.IRAlaunchpage.startWithIRA() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="startWithIRA()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAlaunchpage@42463763]" started-at="2021-10-19T20:06:31Z" name="startWithIRA" description="Welcome Screen - Click on Notification, get that text and get into the bot Type any greetings message and fetch the response message&lt;Menu Options&gt; - click on the &lt;Start Over&gt; button, Click on Download Motor Policy and Click on Download link" finished-at="2021-10-19T20:06:58Z" duration-ms="27201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWithIRA -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAlaunchpage@42463763]" started-at="2021-10-19T20:06:58Z" name="afterMethod" finished-at="2021-10-19T20:06:58Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=startWithIRA status=SUCCESS method=IRAlaunchpage.startWithIRA()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAlaunchpage@42463763] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAlaunchpage@42463763]" started-at="2021-10-19T20:06:58Z" name="beforeMethod" finished-at="2021-10-19T20:06:58Z" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hybridFramework.IRALaunchPage.IRAlaunchpage.fillForm() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="fillForm()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAlaunchpage@42463763]" started-at="2021-10-19T20:06:58Z" name="fillForm" description="Type &lt;Test Bot&gt; - Fill the Form and Submit" finished-at="2021-10-19T20:07:21Z" depends-on-methods="com.hybridFramework.IRALaunchPage.IRAlaunchpage.startWithIRA" duration-ms="22139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillForm -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAlaunchpage@42463763]" started-at="2021-10-19T20:07:21Z" name="afterMethod" finished-at="2021-10-19T20:07:21Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=fillForm status=SUCCESS method=IRAlaunchpage.fillForm()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAlaunchpage@42463763] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAlaunchpage@42463763]" started-at="2021-10-19T20:07:21Z" name="beforeMethod" finished-at="2021-10-19T20:07:21Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hybridFramework.IRALaunchPage.IRAlaunchpage.tryWithNewKeyWords() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="tryWithNewKeyWords()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAlaunchpage@42463763]" started-at="2021-10-19T20:07:21Z" name="tryWithNewKeyWords" description="Type &lt;New Test&gt; - Click on Links Google and close the web view. Click on call and Close the call popup" finished-at="2021-10-19T20:07:36Z" depends-on-methods="com.hybridFramework.IRALaunchPage.IRAlaunchpage.fillForm" duration-ms="15577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tryWithNewKeyWords -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAlaunchpage@42463763]" started-at="2021-10-19T20:07:36Z" name="afterMethod" finished-at="2021-10-19T20:07:36Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tryWithNewKeyWords status=SUCCESS method=IRAlaunchpage.tryWithNewKeyWords()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAlaunchpage@42463763] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAlaunchpage@42463763]" started-at="2021-10-19T20:07:36Z" name="endTest" finished-at="2021-10-19T20:07:37Z" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAlaunchpage@42463763]" started-at="2021-10-19T20:07:37Z" name="afterTest" finished-at="2021-10-19T20:07:37Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.hybridFramework.IRALaunchPage.IRAlaunchpage -->
+    </test> <!-- Success Test -->
+    <test started-at="2021-10-19T14:37:37Z" name="Failure Test" finished-at="2021-10-19T14:37:47Z" duration-ms="9008">
+      <class name="com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture@7216fb24]" started-at="2021-10-19T20:07:37Z" name="launchBrowser" finished-at="2021-10-19T20:07:40Z" duration-ms="2237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="instantiateValues()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture@7216fb24]" started-at="2021-10-19T20:07:40Z" name="instantiateValues" finished-at="2021-10-19T20:07:40Z" depends-on-methods="com.hybridFramework.testBase.TestBase.launchBrowser" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiateValues -->
+        <test-method signature="startWithIRA()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture@7216fb24]" started-at="2021-10-19T20:07:40Z" name="startWithIRA" finished-at="2021-10-19T20:07:45Z" duration-ms="5424" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.hybridFramework.PageObject.IRAHomePage.getFalseWelcomeMessage(IRAHomePage.java:113)
+	at com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture.startWithIRA(IRALaunchPageWithErrorCapture.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWithIRA -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture@7216fb24]" started-at="2021-10-19T20:07:40Z" name="beforeMethod" finished-at="2021-10-19T20:07:40Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture.startWithIRA() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture@7216fb24]" started-at="2021-10-19T20:07:45Z" name="afterMethod" finished-at="2021-10-19T20:07:46Z" duration-ms="403" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=startWithIRA status=FAILURE method=IRALaunchPageWithErrorCapture.startWithIRA()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture@7216fb24] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture@7216fb24]" started-at="2021-10-19T20:07:46Z" name="endTest" finished-at="2021-10-19T20:07:47Z" duration-ms="926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture@7216fb24]" started-at="2021-10-19T20:07:47Z" name="afterTest" finished-at="2021-10-19T20:07:47Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture -->
+    </test> <!-- Failure Test -->
+    <test started-at="2021-10-19T14:37:47Z" name="Test with some keywords Test" finished-at="2021-10-19T14:38:56Z" duration-ms="69310">
+      <class name="com.hybridFramework.IRALaunchPage.IRAInsuranceRenew">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAInsuranceRenew@64ba3208]" started-at="2021-10-19T20:07:47Z" name="launchBrowser" finished-at="2021-10-19T20:07:49Z" duration-ms="2130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="instantiateValues()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAInsuranceRenew@64ba3208]" started-at="2021-10-19T20:07:49Z" name="instantiateValues" finished-at="2021-10-19T20:07:49Z" depends-on-methods="com.hybridFramework.testBase.TestBase.launchBrowser" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instantiateValues -->
+        <test-method signature="startWithIRA()[pri:1, instance:com.hybridFramework.IRALaunchPage.IRAInsuranceRenew@64ba3208]" started-at="2021-10-19T20:07:49Z" name="startWithIRA" description="Welcome Screen - Click on Notification, get that text and get into the bot Type any greetings message and fetch the response message&lt;Menu Options&gt; - click on the &lt;Start Over&gt; button, Click on Download Motor Policy and Click on Download link" finished-at="2021-10-19T20:08:35Z" duration-ms="46717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWithIRA -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAInsuranceRenew@64ba3208]" started-at="2021-10-19T20:07:49Z" name="beforeMethod" finished-at="2021-10-19T20:07:49Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hybridFramework.IRALaunchPage.IRAInsuranceRenew.startWithIRA() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAInsuranceRenew@64ba3208]" started-at="2021-10-19T20:08:35Z" name="afterMethod" finished-at="2021-10-19T20:08:35Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=startWithIRA status=SUCCESS method=IRAInsuranceRenew.startWithIRA()[pri:1, instance:com.hybridFramework.IRALaunchPage.IRAInsuranceRenew@64ba3208] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAInsuranceRenew@64ba3208]" started-at="2021-10-19T20:08:35Z" name="beforeMethod" finished-at="2021-10-19T20:08:35Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hybridFramework.IRALaunchPage.IRAInsuranceRenew.buyNewPolicy() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="buyNewPolicy()[pri:2, instance:com.hybridFramework.IRALaunchPage.IRAInsuranceRenew@64ba3208]" started-at="2021-10-19T20:08:35Z" name="buyNewPolicy" finished-at="2021-10-19T20:08:47Z" duration-ms="11154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyNewPolicy -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAInsuranceRenew@64ba3208]" started-at="2021-10-19T20:08:47Z" name="afterMethod" finished-at="2021-10-19T20:08:47Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=buyNewPolicy status=SUCCESS method=IRAInsuranceRenew.buyNewPolicy()[pri:2, instance:com.hybridFramework.IRALaunchPage.IRAInsuranceRenew@64ba3208] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAInsuranceRenew@64ba3208]" started-at="2021-10-19T20:08:47Z" name="beforeMethod" finished-at="2021-10-19T20:08:47Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hybridFramework.IRALaunchPage.IRAInsuranceRenew.intimateAClaim() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="intimateAClaim()[pri:3, instance:com.hybridFramework.IRALaunchPage.IRAInsuranceRenew@64ba3208]" started-at="2021-10-19T20:08:47Z" name="intimateAClaim" finished-at="2021-10-19T20:08:55Z" duration-ms="8378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intimateAClaim -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAInsuranceRenew@64ba3208]" started-at="2021-10-19T20:08:55Z" name="afterMethod" finished-at="2021-10-19T20:08:55Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=intimateAClaim status=SUCCESS method=IRAInsuranceRenew.intimateAClaim()[pri:3, instance:com.hybridFramework.IRALaunchPage.IRAInsuranceRenew@64ba3208] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAInsuranceRenew@64ba3208]" started-at="2021-10-19T20:08:55Z" name="endTest" finished-at="2021-10-19T20:08:56Z" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.hybridFramework.IRALaunchPage.IRAInsuranceRenew@64ba3208]" started-at="2021-10-19T20:08:56Z" name="afterTest" finished-at="2021-10-19T20:08:56Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.hybridFramework.IRALaunchPage.IRAInsuranceRenew -->
+    </test> <!-- Test with some keywords Test -->
+  </suite> <!-- TestNGXMLTest Test Suite -->
+</testng-results>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [TestNGXMLTest Test Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="classes" name="Failure Test(failed)">
+    <classes>
+      <class name="com.hybridFramework.IRALaunchPage.IRAInsuranceRenew">
+        <methods>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="instantiateValues"/>
+          <include name="launchBrowser"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.hybridFramework.IRALaunchPage.IRAInsuranceRenew -->
+      <class name="com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture">
+        <methods>
+          <include name="startWithIRA"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="instantiateValues"/>
+          <include name="launchBrowser"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture -->
+      <class name="com.hybridFramework.IRALaunchPage.IRAlaunchpage">
+        <methods>
+          <include name="instantiateValues"/>
+          <include name="endTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="launchBrowser"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.hybridFramework.IRALaunchPage.IRAlaunchpage -->
+    </classes>
+  </test> <!-- Failure Test(failed) -->
+</suite> <!-- Failed suite [TestNGXMLTest Test Suite] -->

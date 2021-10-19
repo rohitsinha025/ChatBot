@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestNGXMLTest Test Suite" guice-stage="DEVELOPMENT"
+	parallel="classes">
+	<test name="Success Test" verbose="2">
+		<classes>
+			<class name="com.hybridFramework.IRALaunchPage.IRAlaunchpage"></class>
+		</classes>
+	</test>
+
+	<test name="Failure Test" verbose="2">
+		<classes>
+			<class
+				name="com.hybridFramework.IRALaunchPage.IRALaunchPageWithErrorCapture"></class>
+		</classes>
+	</test>
+
+	<test name="Test with some keywords Test" verbose="2">
+		<classes>
+			<class
+				name="com.hybridFramework.IRALaunchPage.IRAInsuranceRenew"></class>
+		</classes>
+	</test>
+</suite>
