@@ -16,19 +16,20 @@ Close the call popup
 Ira (Chatbot) Testing Guide
 Objective: To test Ira chat workflows for accuracy of results and overall experience.
 What Ira can do :
-● Renew policy
-○ Ex: “ I need to renew my motor policy”
+--> Renew policy
+Ex: “ I need to renew my motor policy”
 "eight wheeler renewal"
 >> Provide the test data given at the end to complete the flow
-● Buy new policy
-○ Ex: “I want to buy a new policy”
-● General queries related to insurance
-○ Ex: "how health insurance differs from life insurance?"
+--> Buy new policy
+Ex: “I want to buy a new policy”
+--> General queries related to insurance
+Ex: "how health insurance differs from life insurance?"
 "What are the different modes of payment to purchase travel insurance?"
 "What is included under motor policy?"
 "How do I contact you?"
-● Claim intimation
-○ Ex: "how to intimate a claim?"
+--> Claim intimation
+Ex: "how to intimate a claim?"
+
 Test Data:
 Policy number: M0012345,12345678
 Vehicle registration number: HR21AB1010
