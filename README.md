@@ -19,14 +19,14 @@ What Ira can do :
 --> Renew policy
 Ex: “ I need to renew my motor policy”
 "eight wheeler renewal"
->> Provide the test data given at the end to complete the flow
+- Provide the test data given at the end to complete the flow
 --> Buy new policy
 Ex: “I want to buy a new policy”
 --> General queries related to insurance
 Ex: "how health insurance differs from life insurance?"
-"What are the different modes of payment to purchase travel insurance?"
-"What is included under motor policy?"
-"How do I contact you?"
+Ex: "What are the different modes of payment to purchase travel insurance?"
+Ex: "What is included under motor policy?"
+Ex: "How do I contact you?"
 --> Claim intimation
 Ex: "how to intimate a claim?"
 
