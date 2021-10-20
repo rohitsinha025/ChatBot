@@ -1,9 +1,8 @@
 # ChatBot
 
 This project is an automation project with an aim to automate chatbot.
-Objective is to :
+Objective is to automate using Selenium :
 
-Automate using Selenium
 - Welcome Screen - Click on Notification, get that text and get into the bot.
 - Type any greetings message and fetch the response message
 - Menu Options click on the “Start Over” button > Click on Download Motor Policy and
